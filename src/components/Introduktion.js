@@ -1,11 +1,11 @@
 import React from 'react'
 
-export const Introduktion = () => {
+export const Introduktion = (props) => {
 	return (
 		<div className="introduktion">
-			<h2>Förnamn: Viktor</h2>
-			<h2>Efternamn: Löfgren</h2>
-			<h2>Kurs: Webbramverk: React</h2>
+			{props.name}
+			{props.lastname}
+			{props.class}
 		</div>
 	)
 }

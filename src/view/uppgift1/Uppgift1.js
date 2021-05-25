@@ -5,7 +5,7 @@ export const Uppgift1 = () => {
 	return (
 		<div>
 			<h1>Uppgift 1</h1>
-			<Introduktion/>
+			<Introduktion name="Viktor" lastname="Löfgren" class=".Net20P"/>
 		</div>
 	)
 }
